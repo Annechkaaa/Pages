@@ -223,11 +223,9 @@ header {
 .author’s_book {
   text-align: center;
   padding-bottom: 150px;
-
   .container {
     display: block;
-
-    .h2 {
+    .author’s_book_title {
       font-family: "Cardo", serif;
       font-weight: 400;
       font-size: 42px;
@@ -235,14 +233,6 @@ header {
       text-transform: capitalize;
       text-align: center;
       color: #1b3764;
-      /* &::after{
-         display: block;
-         border: solid 3px #ffca42 ;
-         width: 50px;
-         content: "";
-         margin-top: 23px;
-       }
-       */
     }
 
     .art_books {
