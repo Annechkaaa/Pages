@@ -1,0 +1,308 @@
+@media screen and (max-width: 430px) {
+    .container {
+        max-width: 398px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    header {
+        padding-bottom: 20px;
+    }
+
+    header .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    header .container .soc_networks {
+        padding-right: 10px;
+    }
+
+    .banner {
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+    }
+
+    .banner .container {
+        display: block;
+    }
+
+    .banner .container .books {
+        padding-bottom: 50px;
+    }
+
+    .banner .container .books .order {
+        margin-right: 10px;
+        margin-left: auto;
+    }
+
+    .banner .container .books .number {
+        display: block;
+    }
+
+    .banner .container .books .number p {
+        font-size: 20px;
+    }
+
+    .banner .container .img_main {
+        max-width: 398px;
+        height: auto;
+    }
+
+    .author’s_book {
+        padding-bottom: 50px;
+    }
+
+    .author’s_book .container .art_books {
+        display: block;
+        padding-top: 36px;
+    }
+
+    .author’s_book .container .art_books article {
+        display: block;
+        text-align: center;
+    }
+
+    .author’s_book .container .art_books article .books_text h3 {
+        margin-bottom: 30px;
+    }
+
+    .author {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .author .container {
+        display: block;
+    }
+
+    .author .container .author_photo {
+        margin-right: 150px;
+        max-width: 398px;
+        height: 470px;
+    }
+
+    .author .container .description .rating p {
+        line-height: 15%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .author .container .description .qa_cod {
+        gap: 15px;
+    }
+
+    .partnership {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .partnership .companies {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .book_copy {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .book_copy .container {
+        display: block;
+    }
+
+    .book_coffee {
+        max-width: 398px;
+    }
+
+    .what_learn {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .what_learn .container h2 {
+        padding-bottom: 37px;
+    }
+
+    .what_learn .container .what_learn_description {
+        display: block;
+    }
+
+    .what_learn .container .what_learn_description .list {
+        justify-content: center;
+    }
+
+    .women_reading {
+        max-width: 398px;
+        height: 498px;
+    }
+
+    .reviews {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .reviews .container {
+        display: block;
+    }
+
+    .reviews_readers {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .readers {
+        padding-bottom: 20px;
+    }
+
+    .articles_resources {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .subscribe .container input {
+        width: auto;
+        margin: auto;
+    }
+
+    footer .footer_all {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    footer .keep_in_touch {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 738px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    header {
+        padding-bottom: 20px;
+    }
+
+    header .container {
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+
+    .banner {
+        margin-bottom: 60px;
+    }
+
+    .banner .container {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .banner .container .books {
+        margin: auto;
+    }
+
+    .author’s_book {
+        padding-bottom: 60px;
+    }
+
+    .author’s_book .container .art_books {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+        padding-top: 40px;
+    }
+
+    .author {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .author .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .author .container .author_photo{
+        margin: auto;
+    }
+
+    .partnership {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .partnership .companies {
+        flex-wrap: wrap;
+    }
+
+    .book_copy .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .book_copy .book_copy_text {
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .what_learn {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .what_learn .container h2 {
+        padding-bottom: 25px;
+    }
+
+    .what_learn .container .what_learn_description {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .reviews {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .reviews .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .articles_resources {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .articles_resources .container h2 {
+        margin-bottom: 35px;
+    }
+
+    .articles {
+        padding-left: calc(50% - 210px);
+    }
+
+    .subscribe {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .subscribe .container input {
+        width: auto;
+        margin: auto;
+    }
+
+    footer .footer_all {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
