@@ -68,6 +68,7 @@ header .container .basket {
   margin-right: 51px;
 }
 header .container .button_order {
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 19px;
   line-height: 150%;
@@ -87,6 +88,7 @@ header .container .button_order {
 .banner .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .banner .container .books {
   max-width: 589px;
@@ -95,8 +97,7 @@ header .container .button_order {
   display: block;
 }
 .banner .container .books .welcome {
-  margin-top: 147px;
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 21px;
   line-height: 171%;
@@ -104,17 +105,18 @@ header .container .button_order {
   text-transform: capitalize;
   color: #fff;
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
 }
 .banner .container .books .welcome:before {
-  background-image: url("images/img_before.svg");
+  background-color: #ffca42;
   content: "";
-  display: inline-flex;
   width: 35px;
   height: 2px;
   margin-right: 14px;
 }
 .banner .container .books h1 {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 64px;
   line-height: 122%;
@@ -122,7 +124,7 @@ header .container .button_order {
   color: #fff;
 }
 .banner .container .books h1 span {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 63px;
   line-height: 124%;
@@ -131,7 +133,7 @@ header .container .button_order {
   margin-bottom: 24px;
 }
 .banner .container .books .description {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 158%;
@@ -139,7 +141,7 @@ header .container .button_order {
   margin-bottom: 30px;
 }
 .banner .container .books a {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 19px;
   line-height: 160%;
@@ -169,21 +171,23 @@ header .container .button_order {
   gap: 60px;
 }
 .banner .container .books .number p {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #fff;
+  display: inline-flex;
 }
 .banner .container .books .number p::before {
   border-radius: 100px;
-  width: 16px;
+  width: 28px;
   height: 16px;
   background: #ffca42;
   content: "";
-  display: inline-flex;
+  display: block;
   margin-right: 10px;
+  margin-top: 5px;
 }
 .banner .container .img {
   max-width: 592px;
@@ -199,7 +203,7 @@ header .container .button_order {
   display: block;
 }
 .author’s_book .container .h2 {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 42px;
   line-height: 120%;
@@ -234,7 +238,7 @@ header .container .button_order {
   margin-right: 30px;
 }
 .author’s_book .container .art_books article .books_text h3 {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 32px;
   line-height: 120%;
@@ -244,7 +248,7 @@ header .container .button_order {
   margin-bottom: 7px;
 }
 .author’s_book .container .art_books article .books_text .prise {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 21px;
   line-height: 157%;
@@ -252,7 +256,7 @@ header .container .button_order {
   margin-bottom: 17px;
 }
 .author’s_book .container .art_books article .books_text .about_books {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 19px;
   line-height: 150%;
@@ -260,7 +264,7 @@ header .container .button_order {
   margin-bottom: 13px;
 }
 .author’s_book .container .art_books article .books_text .printed_book {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 120%;
@@ -277,7 +281,7 @@ header .container .button_order {
   margin-right: 10px;
 }
 .author’s_book .container .art_books article .books_text a {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 19px;
   line-height: 150%;
@@ -303,7 +307,7 @@ header .container .button_order {
   height: 670px;
 }
 .author .container .description h2 {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 42px;
   line-height: 120%;
@@ -313,7 +317,7 @@ header .container .button_order {
   margin-bottom: 59px;
 }
 .author .container .description .about_author {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 19px;
   line-height: 180%;
@@ -327,7 +331,7 @@ header .container .button_order {
   gap: 26px;
 }
 .author .container .description .rating p {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 54px;
   line-height: 143%;
@@ -337,7 +341,7 @@ header .container .button_order {
   margin-bottom: 55px;
 }
 .author .container .description .rating p span {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 127%;
@@ -349,9 +353,9 @@ header .container .button_order {
   background: #1b3764;
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 .author .container .description .qa_cod img {
-  margin-top: 15px;
   margin-left: 20px;
   width: 130px;
   height: 130px;
@@ -360,9 +364,17 @@ header .container .button_order {
   display: block;
   align-items: center;
 }
-.author .container .description .qa_cod .name {
-  margin-top: 37px;
-  font-family: var(--second-family);
+.author .container .description .qa_cod .details a {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 158%;
+  color: #b4c7e7;
+  text-decoration: none;
+}
+.author .container .description .qa_cod .details .name {
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 120%;
@@ -380,7 +392,7 @@ header .container .button_order {
   justify-content: center;
 }
 .partnership h2 {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 42px;
   line-height: 120%;
@@ -408,7 +420,7 @@ header .container .button_order {
   margin-bottom: 22px;
 }
 .partnership article h3 {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 120%;
@@ -417,7 +429,7 @@ header .container .button_order {
   margin-bottom: 16px;
 }
 .partnership article p {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 19px;
   line-height: 150%;
@@ -442,7 +454,7 @@ header .container .button_order {
   justify-content: start;
 }
 .book_copy .book_copy_text h2 {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 45px;
   line-height: 120%;
@@ -451,15 +463,15 @@ header .container .button_order {
   margin-bottom: 54px;
 }
 .book_copy .book_copy_text p {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 19px;
   line-height: 150%;
   color: #b4c7e7;
-  margin-bottom: 27px;
+  padding-bottom: 47px;
 }
 .book_copy .book_copy_text a {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 19px;
   line-height: 150%;
@@ -480,7 +492,7 @@ header .container .button_order {
   align-items: center;
 }
 .what_learn .container h2 {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 42px;
   line-height: 120%;
@@ -510,7 +522,7 @@ header .container .button_order {
   margin-top: 30px;
 }
 .what_learn .container .what_learn_description .list article h5 {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 23px;
   line-height: 125%;
@@ -519,11 +531,14 @@ header .container .button_order {
   width: 50px;
   height: 50px;
   background: #ffca42;
-  padding-left: 43px;
-  padding-top: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 30px;
 }
 .what_learn .container .what_learn_description .list article p {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 140%;
@@ -535,130 +550,149 @@ header .container .button_order {
   height: 672px;
 }
 
+/*
 .enhance_vision {
   background: #f4f8ff;
   padding-top: 116px;
   padding-bottom: 130px;
-}
-.enhance_vision .container {
-  display: block;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.enhance_vision .container h2 {
-  font-family: var(--second-family);
-  font-weight: 400;
-  font-size: 42px;
-  line-height: 120%;
-  text-transform: capitalize;
-  text-align: center;
-  color: #1b3764;
-  padding-bottom: 96px;
-}
-.enhance_vision .enhance_vision_list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 30px 40px;
-}
-.enhance_vision .enhance_vision_list article {
-  max-width: 635px;
-  height: 242px;
-  background: #fff;
-  display: block;
-  text-align: left;
-  margin-bottom: 60px;
-}
-.enhance_vision .enhance_vision_list article h6 {
-  font-family: var(--second-family);
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 120%;
-  color: #1b3764;
-  padding-top: 42px;
-  padding-bottom: 21px;
-}
-.enhance_vision .enhance_vision_list article p {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 19px;
-  line-height: 170%;
-  color: #969aa0;
-}
-.enhance_vision .enhance_vision_list article div {
-  display: flex;
-  gap: 45px;
-}
-.enhance_vision .enhance_vision_list article div p {
-  font-family: var(--second-family);
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 140%;
-  color: #1b3764;
-  padding-left: 10px;
-}
-.enhance_vision .enhance_vision_list article div p span {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 159%;
-  color: #969aa0;
-}
-.enhance_vision .questions {
-  display: block;
-  text-align: center;
-  align-items: center;
-}
-.enhance_vision .questions .start {
-  font-family: var(--second-family);
-  font-weight: 400;
-  font-size: 19px;
-  line-height: 150%;
-  letter-spacing: 0.03em;
-  text-transform: capitalize;
-  text-align: center;
-  color: #1b3764;
-  text-decoration: none;
-  padding: 24px 92px;
-  border: 2px solid #ffca42;
-  background: #ffca42;
-  margin-bottom: 34px;
-}
-.enhance_vision .questions .short_description {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 158%;
-  text-align: center;
-  color: #969aa0;
-  text-decoration: none;
-}
-.enhance_vision .questions p {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 158%;
-  letter-spacing: 0.01em;
-  text-align: center;
-  color: #1b3764;
-}
-.enhance_vision .questions p a {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 19px;
-  line-height: 150%;
-  text-align: center;
-  color: #969aa0;
-  text-decoration: none;
-}
 
+  .container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    h2 {
+      font-family: var(--second-family);
+      font-weight: 400;
+      font-size: 42px;
+      line-height: 120%;
+      text-transform: capitalize;
+      text-align: center;
+      color: #1b3764;
+      padding-bottom: 96px;
+    }
+  }
+
+  .enhance_vision_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px 40px;
+
+    article {
+      max-width: 635px;
+      height: 242px;
+      background: #fff;
+      display: block;
+      text-align: left;
+      margin-bottom: 60px;
+
+      h6 {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        color: #1b3764;
+        padding-top: 42px;
+        padding-bottom: 21px;
+      }
+
+      p {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 170%;
+        color: #969aa0;
+      }
+
+      div {
+        display: flex;
+        gap: 45px;
+
+        p {
+          font-family: var(--second-family);
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 140%;
+          color: #1b3764;
+          padding-left: 10px;
+
+          span {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 159%;
+            color: #969aa0;
+          }
+        }
+      }
+    }
+  }
+
+  .questions {
+    display: block;
+    text-align: center;
+    align-items: center;
+
+    .start {
+      font-family: var(--second-family);
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 150%;
+      letter-spacing: 0.03em;
+      text-transform: capitalize;
+      text-align: center;
+      color: #1b3764;
+      text-decoration: none;
+      padding: 24px 92px;
+      border: 2px solid #ffca42;
+      background: #ffca42;
+      margin-bottom: 34px;
+    }
+
+    .short_description {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 158%;
+      text-align: center;
+      color: #969aa0;
+      text-decoration: none;
+    }
+
+    p {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 158%;
+      letter-spacing: 0.01em;
+      text-align: center;
+      color: #1b3764;
+
+      a {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 150%;
+        text-align: center;
+        color: #969aa0;
+        text-decoration: none;
+      }
+    }
+
+  }
+
+}
+*/
 .reviews {
   padding-top: 130px;
+  padding-bottom: 150px;
 }
 .reviews .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 30px;
 }
 
@@ -666,11 +700,11 @@ header .container .button_order {
   display: block;
   align-items: center;
   justify-content: left;
-  max-width: 468px;
-  padding-top: 104px;
+  max-width: 448px;
+  padding-left: 60px;
 }
 .reviews_readers h3 {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 42px;
   line-height: 120%;
@@ -679,7 +713,7 @@ header .container .button_order {
   margin-bottom: 59px;
 }
 .reviews_readers .all_reviews {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 19px;
   line-height: 180%;
@@ -687,7 +721,7 @@ header .container .button_order {
   margin-bottom: 14px;
 }
 .reviews_readers .grade {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 120%;
@@ -695,7 +729,7 @@ header .container .button_order {
   margin-bottom: 12px;
 }
 .reviews_readers .overall_ratings {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 158%;
@@ -704,10 +738,10 @@ header .container .button_order {
 
 .readers {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
+  max-width: 381px;
 }
 .readers article {
   max-width: 381px;
@@ -731,14 +765,14 @@ header .container .button_order {
   height: 85px;
 }
 .readers article div p {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 120%;
   color: #fff;
 }
 .readers article h6 {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 150%;
@@ -746,7 +780,55 @@ header .container .button_order {
   margin-bottom: 13px;
 }
 .readers article p {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #b4c7e7;
+}
+
+.one_review {
+  display: flex;
+  max-width: 381px;
+}
+.one_review article {
+  max-width: 381px;
+  height: 292px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.11);
+  background: #1b3764;
+  display: block;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.one_review article div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+.one_review article div img {
+  border-radius: 100px;
+  width: 85px;
+  height: 85px;
+}
+.one_review article div p {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #fff;
+}
+.one_review article h6 {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 13px;
+}
+.one_review article p {
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 160%;
@@ -763,7 +845,7 @@ header .container .button_order {
   text-align: center;
 }
 .articles_resources .container h2 {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 42px;
   line-height: 120%;
@@ -790,7 +872,7 @@ header .container .button_order {
   height: 350px;
 }
 .articles article h5 {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 140%;
@@ -798,24 +880,24 @@ header .container .button_order {
   color: #1b3764;
   padding: 25px 30px 19px 30px;
 }
-.articles article p {
-  font-family: var(--font-family);
+.articles article .articles_p {
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 19px;
   line-height: 160%;
   color: #969aa0;
   padding: 0 30px 13px 30px;
+  height: 100px;
 }
 
 .date {
   display: flex;
   justify-content: space-between;
-  gap: 138px;
   align-items: center;
-  padding-bottom: 30px;
+  padding: 0 30px 30px 30px;
 }
 .date a {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 19px;
   line-height: 120%;
@@ -826,7 +908,7 @@ header .container .button_order {
   border-bottom: solid 2px #1b3764;
 }
 .date p {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 159%;
@@ -849,7 +931,7 @@ header .container .button_order {
   padding-bottom: 115px;
 }
 .subscribe .container h3 {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 42px;
   line-height: 120%;
@@ -859,7 +941,7 @@ header .container .button_order {
   padding-bottom: 51px;
 }
 .subscribe .container p {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 158%;
@@ -870,7 +952,7 @@ header .container .button_order {
 .subscribe .container input {
   border: 1px solid #dce1e9;
   width: 656px;
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 170%;
@@ -880,7 +962,7 @@ header .container .button_order {
   margin-left: 16px;
 }
 .subscribe .container button {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 170%;
@@ -909,7 +991,7 @@ footer .footer_all {
 footer .logo_soc_network {
   max-width: 250px;
 }
-footer .logo_soc_network img {
+footer .logo_soc_network .logo_footer {
   margin-bottom: 20px;
 }
 footer .logo_soc_network .soc_network {
@@ -933,7 +1015,7 @@ footer .explore {
 }
 footer .explore h2 {
   margin-bottom: 24px;
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 140%;
@@ -947,7 +1029,7 @@ footer .explore ul {
   gap: 9px;
 }
 footer .explore ul li {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 170%;
@@ -961,7 +1043,7 @@ footer .utility_pages {
 }
 footer .utility_pages h2 {
   margin-bottom: 24px;
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 140%;
@@ -975,7 +1057,7 @@ footer .utility_pages ul {
   gap: 9px;
 }
 footer .utility_pages ul li {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 170%;
@@ -989,7 +1071,7 @@ footer .keep_in_touch {
 }
 footer .keep_in_touch h2 {
   margin-bottom: 27px;
-  font-family: var(--second-family);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 140%;
@@ -997,7 +1079,7 @@ footer .keep_in_touch h2 {
   color: #fff;
 }
 footer .keep_in_touch p {
-  font-family: var(--second-family);
+  font-family: "Cardo", serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
@@ -1005,14 +1087,14 @@ footer .keep_in_touch p {
   color: #fff;
 }
 footer .keep_in_touch p span {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 159%;
   color: #b4c7e7;
 }
 footer p {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 150%;
@@ -1021,7 +1103,7 @@ footer p {
   color: #b4c7e7;
 }
 footer p span {
-  font-family: var(--font-family);
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 150%;
