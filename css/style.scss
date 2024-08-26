@@ -223,8 +223,10 @@ header {
 .author’s_book {
   text-align: center;
   padding-bottom: 150px;
+
   .container {
     display: block;
+
     .author’s_book_title {
       font-family: "Cardo", serif;
       font-weight: 400;
@@ -618,6 +620,7 @@ header {
     }
   }
 }
+
 /*
 .enhance_vision {
   background: #f4f8ff;
@@ -756,6 +759,7 @@ header {
 .reviews {
   padding-top: 130px;
   padding-bottom: 150px;
+
   .container {
     display: flex;
     justify-content: space-between;
@@ -814,6 +818,7 @@ header {
   flex-wrap: wrap;
   gap: 20px;
   max-width: 381px;
+
   article {
     max-width: 381px;
     height: 292px;
@@ -863,9 +868,11 @@ header {
     }
   }
 }
-.one_review{
+
+.one_review {
   display: flex;
   max-width: 381px;
+
   article {
     max-width: 381px;
     height: 292px;
@@ -980,9 +987,10 @@ header {
 .date {
   display: flex;
   justify-content: space-between;
-  
+
   align-items: center;
-  padding: 0 30px 30px 30px ;
+  padding: 0 30px 30px 30px;
+
   a {
     font-family: "Cardo", serif;
     font-weight: 400;
